@@ -24,10 +24,10 @@ library(data.table)
 
 # I first download the the dataset I will wirk with
 url <- "https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip"
-download.file(url, destfile = "/Users/sorennonnengart/Coursera/Data_science/Datensätze/c3_week4/df_1.zip"
+download.file(url, destfile = "/Users/..../df_1.zip"
 
 ## I first create a path to the folder where my data is located
-path <- "/Users/sorennonnengart/Coursera/Data_science/Datensätze/c3_week4/"
+path <- "/Users/.../c3_week4/"
 ## I then set the path to it
 setwd(path)
 getwd()              
