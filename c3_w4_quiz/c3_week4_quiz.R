@@ -2,7 +2,7 @@
 
 rm(list=ls()) 
 
-path <- "/Users/sorennonnengart/Coursera/Data_science/tasks/course_3_Data_cleaning/week4_quiz"
+path <- "/Users/.../week4_quiz"
 setwd(path)
 getwd()
 
@@ -63,7 +63,7 @@ download.file(Url_EDUq4, destfile = "./quiz/Q4_Edu.csv", method="curl")
 list.files("./quiz")
 
 ## setwd()
-setwd("/Users/sorennonnengart/Coursera/Data_science/tasks/course_3_Data_cleaning/week4_quiz/quiz")
+setwd("/..../quiz")
 getwd()
 
 ## Read the datasets
