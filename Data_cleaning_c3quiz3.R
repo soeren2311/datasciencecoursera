@@ -18,7 +18,7 @@ library(jpeg)
 
 ## Download the file
 picurl <- "https://d396qusza40orc.cloudfront.net/getdata%2Fjeff.jpg" ## url of the picutre
-path = '/Users/sorennonnengart/Coursera/Data_science/tasks/course_3_Data_cleaning/week3_quiz/picquiz3.jpg'  ## indicate the path where to save it
+path = '/Users/..../picquiz3.jpg'  ## indicate the path where to save it
 download.file(picurl, path, mode = 'wb') ## download the picture
 PIC_1 <- readJPEG(path, native = TRUE)
 
@@ -32,7 +32,7 @@ library(data.table)
 
 ## Download the file
 GDP_Url <- "https://d396qusza40orc.cloudfront.net/getdata%2Fdata%2FGDP.csv"
-GDP_Path <- "/Users/sorennonnengart/Coursera/Data_science/tasks/course_3_Data_cleaning/week3_quiz/GDP.csv"
+GDP_Path <- "/Users/.../GDP.csv"
 EDU_Url <- "https://d396qusza40orc.cloudfront.net/getdata%2Fdata%2FEDSTATS_Country.csv"
 Edu_Path <- "/Users/sorennonnengart/Coursera/Data_science/tasks/course_3_Data_cleaning/week3_quiz/Edu.csv"
 
